@@ -1,0 +1,7 @@
+C:\Users\lemon\Source\Repos\FileDemo\bin\Debug\FileDemo.exe.config
+C:\Users\lemon\Source\Repos\FileDemo\bin\Debug\FileDemo.exe
+C:\Users\lemon\Source\Repos\FileDemo\bin\Debug\FileDemo.pdb
+C:\Users\lemon\Source\Repos\FileDemo\obj\Debug\FileDemo.csprojAssemblyReference.cache
+C:\Users\lemon\Source\Repos\FileDemo\obj\Debug\FileDemo.csproj.CoreCompileInputs.cache
+C:\Users\lemon\Source\Repos\FileDemo\obj\Debug\FileDemo.exe
+C:\Users\lemon\Source\Repos\FileDemo\obj\Debug\FileDemo.pdb

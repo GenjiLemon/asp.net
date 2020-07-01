@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MaskShoppingCart.Models.MaskOrder>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>购物车</h2>
+<h4>
+    新型冠状病毒来袭,请正确做好个人防护，购买使用口罩，尽量减少出行</h4>
+    <p>
+        @Html.ActionLink("增加新订单", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Buyer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNum)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Buyer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNum)
+                </td>
+                <td>
+                    @Html.ActionLink("修改", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("查看详情", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("删除", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>

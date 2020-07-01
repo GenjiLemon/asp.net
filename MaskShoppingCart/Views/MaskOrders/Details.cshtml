@@ -1,0 +1,50 @@
+﻿@model MaskShoppingCart.Models.MaskOrder
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>订单详情</h2>
+
+<div>
+    <h4>MaskOrder</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Buyer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Buyer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNum)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("修改", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("返回主菜单", "Index")
+</p>

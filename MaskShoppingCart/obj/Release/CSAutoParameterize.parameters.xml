@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MaskOrderContext-Web.config Connection String" description="MaskOrderContext 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=SQL5050.site4now.net;Initial Catalog=DB_A546AE_fay;User Id=DB_A546AE_fay_admin;Password=fay123456;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\lemon\\Source\\Repos\\MaskShoppingCart\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MaskOrderContext']/@connectionString" />
+  </parameter>
+</parameters>
